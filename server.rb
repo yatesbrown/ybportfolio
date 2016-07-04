@@ -7,3 +7,11 @@ require 'sinatra'
 get "/" do
   File.open("public/index.html").read
 end
+
+get "/contact"  do
+  File.open("contact.html").read
+end
+
+get "/about"  do
+  File.open("about.html").read
+end
